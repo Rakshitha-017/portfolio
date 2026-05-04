@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Niki Portfolio</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: #e2e8f0;
+}
+
+header {
+    text-align: center;
+    padding: 30px;
+    background: #020617;
+}
+
+h1 {
+    margin: 10px 0 5px;
+    color: #38bdf8;
+}
+
+nav a {
+    margin: 0 10px;
+    color: #cbd5f5;
+    text-decoration: none;
+}
+
+section {
+    padding: 40px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.card {
+    background: #1e293b;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #38bdf8;
+}
+
+.profile-img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 3px solid #38bdf8;
+    object-fit: cover;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #38bdf8;
+    color: black;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #020617;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <img src="/images/aa.jpg" class="profile-img" alt="Profile Photo">
+    <h1>Rakshitha</h1>
+    <p>Developer | AI Enthusiast | Surviving Engineering</p>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Resume Button in Header -->
+    <br>
+    <a href="/resume.pdf" class="btn" target="_blank">View Resume</a>
+</header>
+
+<section id="about">
+    <div class="card">
+        <h2>About Me</h2>
+        <p>
+            I’m a developer focused on AI, machine learning, and building real-world applications.
+            Passionate about solving problems using technology.
+        </p>
+    </div>
+</section>
+
+<section id="projects">
+    <div class="card">
+        <h2>Projects</h2>
+
+        <h3>AI Image Classifier</h3>
+        <p>Built using ResNet18 for high-accuracy image classification.</p>
+
+        <h3>TrendLens</h3>
+        <p>Multimodal pipeline using CLIP + BERT to detect and track trends.</p>
+    </div>
+</section>
+
+<section id="skills">
+    <div class="card">
+        <h2>Skills</h2>
+        <p>Java, Python, Machine Learning, Deep Learning, Spring Boot, Maven</p>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="card">
+        <h2>Contact</h2>
+        <p>Email: your@email.com</p>
+
+        <!-- Resume buttons -->
+        <a href="/resume.pdf" class="btn" target="_blank">View Resume</a>
+        <a href="/resume.pdf" class="btn" download>Download Resume</a>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Niki | Built with caffeine and deadlines</p>
+</footer>
+
+</body>
+</html>
